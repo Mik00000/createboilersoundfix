@@ -1,0 +1,13 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+
+[[mods]]
+modId="createboilersoundfix"
+version="1.0.0"
+displayName="Create Boiler Sound Fix"
+authors="mik"
+description="Fixes Create steam boiler sound bug and eliminates rollNextPosition CPU overhead."
+
+[[mixins]]
+config="createboilersoundfix.mixins.json"
